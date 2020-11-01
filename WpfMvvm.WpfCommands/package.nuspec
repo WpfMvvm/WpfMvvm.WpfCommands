@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<!--<id>WpfMvvm.Converters</id>
+		<version>0.0.0.1</version>
+		<title>Converters</title>
+		<authors>EldHasp</authors>-->
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/WpfMvvm/WpfMvvm.WpfCommands</projectUrl>
+		<iconUrl>https://github.com/WpfMvvm/WpfMvvm.Ico/blob/main/Ico/WpfMvvm.WpfCommands.png</iconUrl>
+		<icon>WpfMvvm.WpfCommands.png</icon>
+		<description>Реализации ICommand для WPF Решений</description>
+		<releaseNotes>Создание нового пакета. Пока пустой.</releaseNotes>
+		<copyright>Copyright ©  2020</copyright>
+		<tags>WPF MVVM ICommnad RelayCommnad</tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.8" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="WpfMvvm.WpfCommands.png" />
+	</files>
+</package>
