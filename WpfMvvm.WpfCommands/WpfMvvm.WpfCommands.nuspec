@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Реализация ICommand для WPF Решений. В составе пакета делегаты, интерфейсы и классы, реализующие интерфейсы.</summary>
+		<copyright>Copyright ©  2020</copyright>
+		<projectUrl>https://www.cyberforum.ru/wpf-silverlight/thread2738784.html</projectUrl>
+		<repository type="git" url="github.com/WpfMvvm/WpfMvvm.WpfCommands"
+					branch="master" commit="91b7786fee6be7e50808dd38f51d15cb66f3eb31"/>
+		<license type="expression">MIT</license>
+		<licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+		<iconUrl>https://github.com/WpfMvvm/WpfMvvm.Ico/blob/main/Png/WpfMvvm.WpfCommands.png?raw=true</iconUrl>
+		<releaseNotes>https://github.com/WpfMvvm/WpfMvvm.WPfCommands/blob/main/ReleaseNotes.md</releaseNotes>
+		<description>$description$</description>
+		<tags>WPF MVVM ICommand RelayCommand RaiseCanExecuteChanged Dispatcher CommandManager</tags>
+		<language>ru-RU</language>
+	</metadata>
+</package>

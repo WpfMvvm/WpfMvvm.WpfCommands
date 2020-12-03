@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\WpfMvvm.WpfCommands.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,9 +30,11 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\WpfMvvm.WpfCommands.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>WpfMvvm.WpfCommands.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'NuGet|AnyCPU'">
     <OutputPath>bin\NuGet\</OutputPath>
@@ -45,6 +48,7 @@
     <DocumentationFile>bin\NuGet\WpfMvvm.WpfCommands.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,14 +57,22 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WpfMvvm.Commands, Version=0.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WpfMvvm.Commands.0.0.0.1\lib\net48\WpfMvvm.Commands.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfMvvm.Converters, Version=0.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WpfMvvm.Converters.0.0.0.9\lib\net48\WpfMvvm.Converters.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfMvvm.ViewModel, Version=0.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WpfMvvm.ViewModel.0.0.0.1\lib\net48\WpfMvvm.ViewModel.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="WpfMvvm.WpfCommands.ico" />
-    <Resource Include="WpfMvvm.WpfCommands.png" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
